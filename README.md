@@ -1,6 +1,6 @@
 ## Сервис обработки csv файлов
 ### Запуск:
-    docker-compose up -d --build/
+    docker-compose up -d --build
 Swagger доступен на `http://localhost:1337/api/schema/swagger-ui`
 
 ### Как тестировать:
