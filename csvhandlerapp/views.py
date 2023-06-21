@@ -100,7 +100,7 @@ class FindInFileView(RetrieveAPIView):
     serializer_class = FileSerializer
 
     def get_queryset(self):
-        return File.objects.get(id=self.kwargs['key_id'])
+        return File.objects.get(text=self.kwargs['key_id'])
 
     @extend_schema(
         parameters=[
